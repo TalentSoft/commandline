@@ -23,7 +23,7 @@
 		<PackageIcon>CommandLine20.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/Talentsoft/commandline</PackageProjectUrl>
 		<PackageTags>command line;commandline;argument;option;parser;parsing;library;syntax;shell</PackageTags>
-		<PackageReleaseNotes>https://github.com/Talentsoft/commandline/blob/master/CHANGELOG.md</PackageReleaseNotes>
+		<PackageReleaseNotes>https://github.com/Talentsoft/commandline/blob/talentsoft/CHANGELOG.md</PackageReleaseNotes>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<LangVersion>8.0</LangVersion>
 		<IncludeSymbols>true</IncludeSymbols>
