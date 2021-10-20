@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 CommandLineParser project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.8.1-pr785] - 2021-10-20
+### Added
+ - Add public static property `AutoBuildMetadataAssembly` in `HelpText` class to allow .NetCore unit tests to use the desired assembly instead of `TestHost` to build the help by [@mnivet, PR# 785](https://github.com/commandlineparser/commandline/pull/785)
+
 ## [2.8.0] - 2020-5-1
 ## [2.8.0-preview4] - 2020-4-30
 ## [2.8.0-preview1] - 2020-3-14
