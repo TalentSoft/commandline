@@ -9,7 +9,7 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<AssemblyOriginatorKeyFile>..\..\CommandLine.snk</AssemblyOriginatorKeyFile>
 		<SignAssembly>true</SignAssembly>
-		<PackageId Condition="'$(BuildTarget)' != 'fsharp'">CommandLineParser</PackageId>
+		<PackageId Condition="'$(BuildTarget)' != 'fsharp'">Talentsoft.CommandLineParser</PackageId>
 		<PackageId Condition="'$(BuildTarget)' == 'fsharp'">CommandLineParser.FSharp</PackageId>
 		<Authors>gsscoder;nemec;ericnewton76;moh-hassan</Authors>
 		<Title>Command Line Parser Library</Title>
@@ -19,7 +19,6 @@
 		<Description Condition="'$(BuildTarget)' == 'fsharp'">Terse syntax C# command line parser for .NET with F# support. The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks.</Description>
 		<Copyright>Copyright (c) 2005 - 2020 Giacomo Stelluti Scala &amp; Contributors</Copyright>
 		<PackageLicenseFile>License.md</PackageLicenseFile>
-		<PackageId>Talentsoft.CommandLine</PackageId>
 		<PackageIcon>CommandLine20.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/Talentsoft/commandline</PackageProjectUrl>
 		<PackageTags>command line;commandline;argument;option;parser;parsing;library;syntax;shell</PackageTags>
