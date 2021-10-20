@@ -14,6 +14,19 @@ The Command Line Parser Library offers CLR applications a clean and concise API 
 C:\Project> NuGet Install CommandLineParser
 ```
 
+# Talentsoft fork
+This branch (talentsoft) is the main branch to deliver pre-release versions that include pull requests we need and that are not yet part of the official build.
+
+Commits relative to such pull request can be cherry pick to that branch to build packages named Talentsoft.CommandLine instead of just CommandLine.  
+To do so run the following command once the desired commits have been cherry pick here:
+
+```
+dotnet build src/CommandLine/ -c Release --version-suffix X.Y.Z-prXXX /p:BuildTarget=base
+```
+Then grab the created *nupkg* file from `src\CommandLine\bin\Release` folder and upload it to our [Talentsoft NuGet feed](http://srv-rd-packages.talentsoft.com/feeds/Talentsoft) manually.
+
+Yes, operations are manual, and we won't provide a clean CI pipeline to build and publish the package. Because we hope that this fork is a temporary solution which won't need high maintenance in the future.
+
 # Nightly Build
 
 Nightly version of the CommandLineParser can be downloaded from github [Releases](https://github.com/commandlineparser/commandline/releases). 

@@ -15,14 +15,15 @@
 		<Title>Command Line Parser Library</Title>
 		<Version Condition="'$(VersionSuffix)' != ''">$(VersionSuffix)</Version>
 		<Version Condition="'$(VersionSuffix)' == ''">0.0.0</Version>
-		<Description Condition="'$(BuildTarget)' != 'fsharp'">Terse syntax C# command line parser for .NET.  For FSharp support see CommandLineParser.FSharp.  The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks.</Description>
+		<Description Condition="'$(BuildTarget)' != 'fsharp'">Talentsoft fork of CommandLineParser, a terse syntax C# command line parser for .NET.  For FSharp support see CommandLineParser.FSharp.  The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks.</Description>
 		<Description Condition="'$(BuildTarget)' == 'fsharp'">Terse syntax C# command line parser for .NET with F# support. The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks.</Description>
 		<Copyright>Copyright (c) 2005 - 2020 Giacomo Stelluti Scala &amp; Contributors</Copyright>
 		<PackageLicenseFile>License.md</PackageLicenseFile>
+		<PackageId>Talentsoft.CommandLine</PackageId>
 		<PackageIcon>CommandLine20.png</PackageIcon>
-		<PackageProjectUrl>https://github.com/commandlineparser/commandline</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/Talentsoft/commandline</PackageProjectUrl>
 		<PackageTags>command line;commandline;argument;option;parser;parsing;library;syntax;shell</PackageTags>
-		<PackageReleaseNotes>https://github.com/commandlineparser/commandline/blob/master/CHANGELOG.md</PackageReleaseNotes>
+		<PackageReleaseNotes>https://github.com/Talentsoft/commandline/blob/master/CHANGELOG.md</PackageReleaseNotes>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<LangVersion>8.0</LangVersion>
 		<IncludeSymbols>true</IncludeSymbols>
